@@ -1,0 +1,8 @@
+#!/bin/bash
+#sudo systemctl restart home-assistant@sander
+COMMAND=`catappdaemon.docker`
+
+docker stop appdaemon4
+docker rm appdaemon4
+$COMMAND
+echo "$COMMAND"
