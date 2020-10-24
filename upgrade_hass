@@ -13,7 +13,7 @@ fi
 
 IMAGE=homeassistant/home-assistant
 NAME=home-assistant
-COMMAND=`cat home-assistant.docker_bridge`
+COMMAND=`cat home-assistant.docker`
 
 echo "Requested version$VERSION"
 
