@@ -1,0 +1,1 @@
+docker run --name=appdaemon4 -d -p 5050:5050  --net=host --restart=always -v /path/to/homeassistant/appdaemon4/conf:/conf -v /path/to/homeassistant/secrets.yaml:/conf/secrets.yaml -v /etc/localtime:/etc/localtime:ro acockburn/appdaemon:4.0.5
